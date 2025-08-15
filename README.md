@@ -5,11 +5,11 @@ The model is trained with image augmentations, early stopping, and accuracy/loss
 ---
 
 ## 📌 Features
--Data preprocessing & augmentation using torchvision.transforms.
--CNN architecture with 4 convolutional layers, dropout, and ReLU activations.
--Custom training loop with early stopping.
--GPU support with an easy-to-use device loader.
--Accuracy and loss visualization over epochs.
+- Data preprocessing & augmentation using torchvision.transforms.
+- CNN architecture with 4 convolutional layers, dropout, and ReLU activations.
+- Custom training loop with early stopping.
+- GPU support with an easy-to-use device loader.
+- Accuracy and loss visualization over epochs.
 
 ---
 
@@ -54,21 +54,21 @@ pip install torch torchvision matplotlib numpy
 ## 🚀 Usage
 Run the training script:
 The script:
--Loads & augments the dataset.
--Splits into training and validation sets.
--Trains the CNN model.
--Plots accuracy and loss curves.
+- Loads & augments the dataset.
+- Splits into training and validation sets.
+- Trains the CNN model.
+- Plots accuracy and loss curves.
 
 ---
 
 ## 🏗 Model Architecture
--Conv2d(3, 32) → ReLU → MaxPool2d
--Conv2d(32, 64) → ReLU → MaxPool2d
--Conv2d(64, 128) → ReLU → MaxPool2d
--Conv2d(128, 128) → ReLU → MaxPool2d
--Flatten → Dropout(0.5)
--Linear(128*8*8 → 256) → ReLU → Dropout(0.5)
--Linear(256 → 10)
+- Conv2d(3, 32) → ReLU → MaxPool2d
+- Conv2d(32, 64) → ReLU → MaxPool2d
+- Conv2d(64, 128) → ReLU → MaxPool2d
+- Conv2d(128, 128) → ReLU → MaxPool2d
+- Flatten → Dropout(0.5)
+- Linear(128*8*8 → 256) → ReLU → Dropout(0.5)
+- Linear(256 → 10)
 
 ---
 
@@ -79,8 +79,8 @@ Loss vs Epochs
 ---
 
 ## 💡 Improvements
--Experiment with deeper architectures (e.g., ResNet, EfficientNet).
--Add learning rate scheduling.
--Try transfer learning for faster convergence.
+- Experiment with deeper architectures (e.g., ResNet, EfficientNet).
+- Add learning rate scheduling.
+- Try transfer learning for faster convergence.
 
 ---
