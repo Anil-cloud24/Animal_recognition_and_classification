@@ -73,8 +73,8 @@ The script:
 ---
 
 ## 📊 Results
-Accuracy vs Epochs
-Loss vs Epochs
+- Accuracy vs Epochs
+- Loss vs Epochs
 
 ---
 
