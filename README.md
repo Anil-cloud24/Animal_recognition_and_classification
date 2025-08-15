@@ -16,7 +16,7 @@ The model is trained with image augmentations, early stopping, and accuracy/loss
 ## 📂 Dataset
 
 The dataset should be structured as follows:
-
+```text
 animals10/raw-img/
     ├── butterfly/
     ├── cat/
@@ -28,7 +28,7 @@ animals10/raw-img/
     ├── sheep/
     ├── spider/
     └── squirrel/
-
+```
 
 You can download it from Kaggle:
 Animals-10 Dataset
