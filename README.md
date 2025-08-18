@@ -38,7 +38,7 @@ Animals-10 Dataset
 ## ⚙️ Installation
 
 ### Clone the repository:
-git clone https://github.com/Anil-cloud24/animal10-cnn.git
+git clone https://github.com/Anil-Venkat-Venkatachalam/animal10-cnn.git
 cd animal10-cnn
 
 
